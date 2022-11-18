@@ -1,0 +1,39 @@
+/* CSS stylesheet */
+
+body {
+    display: flex;
+    flex: 100%;
+}
+
+.hero {
+    background-color: #1f2937;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.right {
+    display: flex;
+    gap: 1em;
+}
+
+.right,
+.undertitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
