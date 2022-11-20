@@ -13,10 +13,25 @@ body {
     padding: 20px 150px;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
     flex: none;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+    align-items: center;
 }
 
 .titles {
@@ -35,19 +50,22 @@ body {
 
 .right {
     display: flex;
-    gap: 1em;
+    flex: 2;
+    justify-content: flex-end;
 }
 
 .right,
 .undertitle {
     font-size: 18px;
     color: #E5E7EB;
+    width: 450px;
 }
 
 .title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 8px;
 }
 
 .left {
