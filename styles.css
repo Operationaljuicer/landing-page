@@ -3,17 +3,34 @@
 body {
     display: flex;
     flex: 100%;
+    margin: 0%;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .hero {
     background-color: #1f2937;
     flex: 1;
+    padding: 20px 150px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    flex: none;
+}
+
+.titles {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 400px;
+}
+
+.second {
+    display: flex;
+    height: 500px;
+    flex: 1;
+    justify-content: space-between;
 }
 
 .right {
@@ -36,4 +53,24 @@ body {
 .left {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.img {
+    display: flex;
+}
+
+img {
+    padding: 100px 0px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin: 16px 0px;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
 }
